@@ -1,0 +1,114 @@
+.navbar{
+    display: none!important;
+}
+.contentImageBox {
+    padding: 5px;
+    width: 480px!important;
+    height: 195px!important;
+    /* border: 2px solid red!important; */
+    
+}
+
+.item img{
+    width: 480px!important;
+    height: 195px!important;
+    object-fit: cover!important;
+
+}
+
+.contentDetailBox{
+    margin-left: 5px!important;
+    margin-top: 3px!important;
+    width: 480px!important;
+}
+
+#footerHome{
+    top: 4278px!important;
+}
+
+
+/* Article 11    CSS Border radius animation  */
+
+#contentConatiner{
+    width: 100%!important;
+}
+
+#Cont11two img {
+    max-width: 100%!important;
+    margin-left: 0%!important;
+}
+
+#Cont11four iframe{
+    max-width: 100%!important;
+    margin-left: 0%!important;
+}
+
+
+
+/* Article 10   skill bar animation aos library  */
+
+#contentConatiner10{
+    width: 100%!important;
+}
+
+#Cont10two img {
+    max-width: 100%!important;
+    margin-left: 0%!important;
+}
+
+#Cont10four iframe{
+    max-width: 100%!important;
+    margin-left: 0%!important;
+}
+
+
+
+/* Article 9    responsive portfolio-2  */
+
+#contentConatiner9{
+    width: 100%!important;
+}
+
+#Cont9two img {
+    max-width: 100%!important;
+    margin-left: 0%!important;
+}
+
+#Cont9four iframe{
+    max-width: 100%!important;
+    margin-left: 0%!important;
+}
+
+/* Article 8    text hover effect 1  */
+
+#contentConatiner8{
+    width: 100%!important;
+}
+
+#Cont8two img {
+    max-width: 100%!important;
+    margin-left: 0%!important;
+}
+
+#Cont8four iframe{
+    max-width: 100%!important;
+    margin-left: 0%!important;
+}
+
+
+
+/* Article 7    text hover effect 1  */
+
+#contentConatiner7{
+    width: 100%!important;
+}
+
+#Cont7two img {
+    max-width: 100%!important;
+    margin-left: 0%!important;
+}
+
+#Cont7four iframe{
+    max-width: 100%!important;
+    margin-left: 0%!important;
+}

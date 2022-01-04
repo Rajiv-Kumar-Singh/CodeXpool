@@ -1,0 +1,21 @@
+extends base.pug
+
+block scripts
+    script(src='../static/my.js')
+    script(async custom-element="amp-fx-collection" src="https://cdn.ampproject.org/v0/amp-fx-collection-0.1.js" crossorigin='anonymous') 
+  
+block style
+    style
+        include ../static/style.css
+        include ../static/styleContact.css
+
+block content
+    div.contactContainer
+        #contacthead
+        form.contactform(action='/' method='post' onSubmit="alert('Replying you soon Thanks!');")
+            h1 Contact Me
+            input(type='text' placeholder='NAME' name='name' required)
+            input(type='email' placeholder='EMAIL' name='email' required)
+            textarea#message(name='message' placeholder='Concern' cols='10' rows='5' required)
+            // <button id="form-cancel-btn">CANCEL</button>
+            button#form-send-btn SEND

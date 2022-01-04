@@ -1,0 +1,46 @@
+doctype html
+html
+  head
+    block head 
+      meta(charset='UTF-8')
+      meta(http-equiv='X-UA-Compatible' content='IE=edge')
+      meta(name='viewport' content='width=device-width, initial-scale=1.0')
+      title CodeXpool
+      //- link(rel='stylesheet' href='../static/style.css')
+      link(rel='stylesheet' media='only screen and (max-device-width: 881px)' href='../static/style2.css')
+      link(rel='stylesheet' media='only screen and (max-device-width: 500px)' href='../static/style3.css')
+      link(rel='stylesheet' media='only screen and (max-device-width: 370px)' href='../static/style4.css')
+      link(rel='stylesheet' href='https://cdn.jsdelivr.net/gh/CDNSFree2/PrismJS@latest/prism.min.css')
+      link(rel='stylesheet' href='https://unpkg.com/aos@next/dist/aos.css')
+      script(src='https://cdn.jsdelivr.net/gh/CDNSFree2/PrismJS@latest/prism.min.js')
+      script(async custom-element="amp-fx-collection" src="https://cdn.ampproject.org/v0/amp-fx-collection-0.1.js" crossorigin='anonymous') 
+      script(src='https://kit.fontawesome.com/f6dcf461c1.js' crossorigin='anonymous')
+      script(src='https://unpkg.com/aos@next/dist/aos.js' crossorigin='anonymous') 
+      //- script(src='../static/my.js')
+    block scripts
+      //- include ../static/my.js
+      script(src='../static/my.js')
+    block style
+      style 
+        include ../static/style.css
+  body   
+    #head2
+      .navbar
+        #nav
+          ul.links
+            li #[a(href="/") Home]
+              
+            li #[a(href='/') ABOUT]
+             
+            li #[a(href='#container2') Posts]
+              
+            li #[a(href='/contact') CONTACT]
+    //- footer#footer(amp-fx='fly-in-bottom')
+    //-   #footBox1.footItems
+    //-     h1 CodeXpool
+    //-   #footBox2.footItems
+    //-     span.footAboutHead ABOUT &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;POST &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;EMAIL : poolcodex10@gmail.com
+    //-   #footBox3.footItems
+    //-     | Connet on
+    block content
+      

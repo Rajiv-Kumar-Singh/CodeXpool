@@ -1,0 +1,149 @@
+extends ../base.pug
+
+block scripts
+    script(src='../../static/my.js')
+block style
+    style
+        include ../../static/style.css
+        include ../../static/contentCSSfiles/texthover1.css
+
+block content
+    #Maincontainer8
+        #contentConatiner8
+            #Cont8one.cont 
+                h2#title8 
+                    | Text Hover Effect Using HTML, CSS and JavaScript
+            #Cont8two.cont 
+                img(src="../../static/files/hover.jpg", alt="image")
+            #Cont8three.cont 
+                | Hello Developers, In this blog you will learn to create this amazing Text Hover effect using HTML, CSS and JavaScript
+                br
+                | Below i have provided the source code of this or you can also watch the video tutorial.
+            br
+            br
+            br    
+            #Cont8four.cont 
+                h1#watchHead8 Watch Tutorial
+                iframe(width="100%" height="100%" src="https://www.youtube.com/embed/D6fv9fzi6I8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="")
+            br
+            br
+            br    
+            #Cont8five.cont 
+                #sourceCodePara8 
+                    | To achieve this amazing CSS effect you need to create two files 1-HTML file(index.html) and 2-CSS(style.css) file, Now copy and paste the following code in these files also don't forget to paste the JavaScript code inside HTML file at the bottom and inside of body tag.
+                br
+                br    
+                h1#codeHead8html HTML Code
+                pre 
+                    code#codeBlockHtml8(class="language-html") 
+                        |&lt;!DOCTYPE html>
+                        |&lt;html lang="en">
+                        |&lt;head>
+                        |    &lt;meta charset="UTF-8">
+                        |    &lt;meta http-equiv="X-UA-Compatible" content="IE=edge">
+                        |    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0">
+                        |    &lt;title>Hover Effect&lt;/title>
+                        |    &lt;link rel="stylesheet" href="style.css">
+                        |&lt;/head>
+                        |&lt;body>
+                        |    &lt;div id="box">
+                        |        &lt;h1 class="alpha">H&lt;/h1>
+                        |        &lt;h1 class="alpha">o&lt;/h1>
+                        |        &lt;h1 class="alpha">v&lt;/h1>
+                        |        &lt;h1 class="alpha">e&lt;/h1>
+                        |        &lt;h1 class="alpha">r&lt;/h1>
+                        |        &lt;span id="me">
+                        |            &lt;h1 class="alpha">m&lt;/h1>
+                        |            &lt;h1 class="alpha">e&lt;/h1>
+                        |        &lt;/span>
+                        |    &lt;/div>
+                        |&lt;/body>
+                        |&lt;/html>
+            br
+            br
+            br                       
+            #Cont8six.cont
+                h1#codeHead8css CSS Code 
+                pre
+                    code(class="language-css")
+                        | /*          Imported Google Font Family Link             */
+                        | @import url('https://fonts.googleapis.com/css2?family=Almarai:wght@800&display=swap');
+                        | *{
+                        | margin: 0;
+                        | padding: 0;
+                        | }
+                        | body {
+                        | background-color: #000000;
+                        | }
+                        | #box{
+                        | display: flex;
+                        | position: absolute;
+                        | top: 263px;
+                        | left: 35vw;
+                        | /* border: 2px solid red; */
+                        | }
+                        | #me{
+                        | display: flex;
+                        | margin-left: 25px;
+                        | }
+                        | .alpha{
+                        | color: #FFFFFF;
+                        | font-size: 77px;
+                        | font-family: 'Almarai',sans-serif;
+                        | margin: 4px;
+                        | }
+                        | .alpha.animated{
+                        | color: #ff6347;
+                        | animation: ani 0.7s ease-in-out 1;
+                        | }
+                        | @keyframes ani {
+                        | 0%{
+                        |     transform: scale(1.2,0.5);
+                        | }
+                        | 16%{
+                        |     transform: scale(1.2,0.5);
+                        | }
+                        | 25%{
+                        |     transform: scale(1.2,0.5);
+                        | }
+                        | 32%{
+                        |     transform: scale(0.8,1.1);
+                        | }
+                        | 48%{
+                        |     transform: scale(0.95,1);
+                        | }
+                        | 64%{
+                        |     transform: scale(0.8,1.2);
+                        | }
+                        | 80%{
+                        |     transform: scale(1.15,1);
+                        | }
+                        | 87%{
+                        |     transform: scale(1.15,1);
+                        | }
+                        | 90%{
+                        |     /* This will add the shaking effect one time almost at the end   */
+                        |     transform: scale(0.8,1);
+                        | }
+                        | 95%{
+                        |     transform: scale(1.05,1);
+                        | }
+                        | 100%{
+                        |     transform: scale(1,1);
+                        | }
+                        | }
+            #Cont8seven.cont
+                h1#codeHead8js JavaScript Code 
+                pre
+                    code(class="language-javascript")
+                        | const elements = document.getElementsByClassName('alpha');
+                        | for (let i = 0; i <= elements.length; i++) {
+                        |     elements[i].addEventListener('animationend', function (e) {
+                        |         elements[i].classList.remove('animated');
+                        |     });
+                        |     elements[i].addEventListener('mouseover', function (e) {
+                        |         elements[i].classList.add('animated')
+                        |     })
+                        | }
+                #finalcodepara8 
+                    | That's all now you have succesfully achieve this amazing CSS Text Hover Effect.

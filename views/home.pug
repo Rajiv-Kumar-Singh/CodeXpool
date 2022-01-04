@@ -1,0 +1,175 @@
+extends base.pug
+
+block scripts
+    //- include ../static/my.js
+    script(async custom-element="amp-fx-collection" src="https://cdn.ampproject.org/v0/amp-fx-collection-0.1.js" crossorigin='anonymous') 
+    script(src='../static/my.js')
+block style
+    style
+        include ../static/style.css
+        include ../static/styleContact.css   
+block content
+    #container1
+        #BgVideo
+            video(src='../static/files/video.mp4' autoplay='' muted='' loop='')
+        #codexpool
+            .alphaABCDE(data-aos='fade-down') C
+            .alphaABCDE(data-aos='fade-down' data-aos-delay="200") o
+            .alphaABCDE(data-aos='fade-down' data-aos-delay="400") d
+            .alphaABCDE(data-aos='fade-down' data-aos-delay="600") e
+            .alphaABCDE(data-aos='fade-down' data-aos-delay="800") X
+            .alphaABCDE(data-aos='fade-down' data-aos-delay="1000") p
+            .alphaABCDE(data-aos='fade-down' data-aos-delay="1200") o
+            .alphaABCDE(data-aos='fade-down' data-aos-delay="1400") o
+            .alphaABCDE(data-aos='fade-down' data-aos-delay="1600") l
+        #bar
+            i.fas.fa-bars
+    #container2
+        #allPost
+            | All Post &nbsp;
+            i.fas.fa-chevron-down
+        #mainBoxContainer
+            #box1.box(data-aos='fade-up' data-aos-once='true')
+                .item.contentImageBox
+                    img(src='../static/files/bb.JPG' alt='image')
+                .item.contentDetailBox
+                    span.contentHeading
+                        a(href='/borderRadiiAni') 
+                            | CSS Border Radius Animation
+                    br
+                    br
+                    span.contentDetails
+                        | Hello Developers, In this blog you will learn to create a blob like
+                        | shape using HTML and CSS.
+            #box2.box(data-aos='fade-up' data-aos-once='true')
+                .item.contentImageBox
+                    img(src='../static/files/skillBar.png' alt='image')
+                .item.contentDetailBox
+                    span.contentHeading
+                        a(href='/skilBaranime') 
+                            | Animate Skill Bar On Scroll Using HTML, CSS and JavaScript.
+                    br
+                    br
+                    span.contentDetails
+                        | Hello Developers, In this blog you will learn, How to animate skill bar on scroll using HTML, CSS and Javascript.
+            #box3.box(data-aos='fade-up' data-aos-once='true')
+                .item.contentImageBox
+                    img(src='../static/files/portfolio-2.JPG' alt='image')
+                .item.contentDetailBox
+                    span.contentHeading
+                        a(href='/portfolio2') Responsive Portfolio Website (Landing Page)
+                    br
+                    br
+                    span.contentDetails
+                        | Hello Developers, In this blog you will learn to create responsive personal portfolio landing page using HTML, CSS and JavaScript.
+            #box4.box(data-aos='fade-up' data-aos-once='true')
+                .item.contentImageBox
+                    img(src='../static/files/hover.jpg' alt='image')
+                .item.contentDetailBox
+                    span.contentHeading
+                        a(href='/textHover1') Text Hover Effect using HTML,CSS and JavaScript
+                    br
+                    br
+                    span.contentDetails
+                        | Hello Developers, In this blog you will learn to create an awesome CSS text hover effect using HTML,CSS and JavaScript.
+            #box5.box(data-aos='fade-up' data-aos-once='true')
+                .item.contentImageBox
+                    img(src='../static/files/portfolio-1.JPG' alt='image')
+                .item.contentDetailBox
+                    span.contentHeading
+                        a(href='/portfolio1') Responsive Portfolio Website (Landing Page)
+                    br
+                    br
+                    span.contentDetails
+                        | Hello Developers, In this blog you will learn to create responsive personal portfolio landing page using HTML, CSS and JavaScript.
+            #box6.box(data-aos='fade-up' data-aos-once='true')
+                .item.contentImageBox
+                    img(src='../static/files/LikeBtn.JPG' alt='image')
+                .item.contentDetailBox
+                    span.contentHeading
+                        a(href='#') Like Button Using HTML,CSS and JavaScript.
+                    br
+                    br
+                    span.contentDetails
+                        | Hello Developers, In this blog you will learn to create heart shape like button using HTML, CSS and JavaScript.
+            #box7.box(data-aos='fade-up' data-aos-once='true')
+                .item.contentImageBox
+                    img(src='../static/files/Neumorphism.JPG' alt='image')
+                .item.contentDetailBox
+                    span.contentHeading
+                        a(href='#') Neumorphism Cards.
+                    br
+                    br
+                    span.contentDetails
+                        | Hello Developers, In this blog you will learn to create neumorphism cards using HTML, CSS and JavaScript.
+            #box8.box(data-aos='fade-up' data-aos-once='true')
+                .item.contentImageBox
+                    img(src='../static/files/jacek.png' alt='image')
+                .item.contentDetailBox
+                    span.contentHeading
+                        a(href='#') CSS Border Radius Animation
+                    br
+                    br
+                    span.contentDetails
+                        | Hello Developers, In this blog you will learn to create a blob like
+                        | design using HTML and CSS.
+            #box9.box(data-aos='fade-up' data-aos-once='true')
+                .item.contentImageBox
+                    img(src='../static/files/linearGradient.png' alt='image')
+                .item.contentDetailBox
+                    span.contentHeading
+                        a(href='#') CSS Border Radius Animation
+                    br
+                    br
+                    span.contentDetails
+                        | Hello Developers, In this blog you will learn to create a blob like
+                        | design using HTML and CSS.
+            #box10.box(data-aos='fade-up' data-aos-once='true')
+                .item.contentImageBox
+                    img(src='../static/files/responsiveNavbar.jpg' alt='image')
+                .item.contentDetailBox
+                    span.contentHeading
+                        a(href='#') CSS Border Radius Animation
+                    br
+                    br
+                    span.contentDetails
+                        | Hello Developers, In this blog you will learn to create a blob like
+                        | design using HTML and CSS.
+            #box11.box.pp1(data-aos='fade-up' data-aos-once='true')
+                .item.contentImageBox
+                    img(src='../static/files/coolNavbar.jpg' alt='image')
+                .item.contentDetailBox
+                    span.contentHeading
+                        a(href='#') CSS Border Radius Animation
+                    br
+                    br
+                    span.contentDetails
+                        | Hello Developers, In this blog you will learn to create a blob like
+                        | design using HTML and CSS.
+    script.
+        const elements = document.getElementsByClassName('alphaABCDE');
+        for (let i = 0; i <= elements.length; i++) {
+        elements[i].addEventListener('animationend', function (e) {
+        elements[i].classList.remove('animated');
+        });
+        elements[i].addEventListener('mouseover', function (e) {
+        elements[i].classList.add('animated')
+        })
+        }
+    script(src='https://unpkg.com/aos@next/dist/aos.js')
+    script.
+      AOS.init({
+      offset: 100,
+      duration: 1500
+      });
+    #footerHome
+        #footBox1.footItems
+            h1 CodeXpool
+        #footBox2.footItems
+            span.footAboutHead ABOUT <br><br> POST <br><br> EMAIL : poolcodex10@gmail.com
+        #footBox3.footItems
+            | Connet on                
+    //- script
+    //-     //- include ../static/my.js
+    //-     script(src='../static/my.js')
+    

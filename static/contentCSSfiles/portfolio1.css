@@ -1,0 +1,140 @@
+#Maincontainer7 {
+    position: absolute;
+    top: 70px;
+    left: 0px;
+    width: 100%;
+    /* min-height: 6522px; */
+    /* border: 5px solid red; */
+    display: inline-block;
+   
+}
+
+#contentConatiner7{
+    position: absolute;
+    top: 0px;
+    /* border: 3px solid green; */
+    width: 65%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.cont{
+    /* border: 2px solid olive; */
+    margin: 4px;
+}
+#title7 {
+    font-size: 37px;
+    font-family: 'Righteous', cursive;
+}
+
+#Cont7{
+    color: olive;
+}
+
+#Cont7two img {
+    margin-left: 12%;
+    max-width: 75%;
+    height: 339px;
+    object-fit: cover;
+    padding: 5px;
+}
+
+#Cont7three{
+    font-family: 'Nunito', sans-serif;
+    padding: 6px;
+    font-size: 20px;
+}
+#codeHead7html{
+    font-family: 'Righteous', cursive;
+    
+}
+#codeHead7css{
+    font-family: 'Righteous', cursive;
+}
+#codeHead7js{
+    font-family: 'Righteous', cursive;
+}
+
+#Cont7four iframe{
+    margin-left: 12%;
+    max-width: 75%;
+    height: 339px;
+    object-fit: cover;
+    padding: 5px;
+   
+}
+
+#watchHead7{
+    font-family: 'Righteous', cursive;
+}
+
+
+#codeBlockHtml7{
+    width: 353px;
+    /* height: 243px; */
+}
+#Cont7five{
+    /* height: 580px; */
+    object-fit: cover;
+    padding: 5px;
+    font-size: 14px;
+   
+}
+
+#Cont7six{
+    /* height: 580px; */
+    object-fit: cover;
+    padding: 5px;
+    font-size: 14px;
+}
+#Cont7seven{
+    /* height: 580px; */
+    object-fit: cover;
+    padding: 5px;
+    font-size: 14px;
+}
+#Cont7eight{
+    /* height: 580px; */
+    object-fit: cover;
+    padding: 5px;
+    font-size: 14px;
+}
+#Cont7nine{
+    /* height: 580px; */
+    object-fit: cover;
+    padding: 5px;
+    font-size: 14px;
+}
+#Cont7three span{
+    font-weight:bold;
+    color: green;
+    
+}
+
+#sourceCodePara7{
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+}
+#finalcodepara7 {
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+/* #footerHome{
+    top: 6478px;
+    width: 90%;
+}
+
+
+@media screen and (max-width: 881px){
+    #footerHome {
+        top: 6558px!important;
+}
+} */
+
+/* @media="only screen and (max-device-width: 881px)"
+
+} */

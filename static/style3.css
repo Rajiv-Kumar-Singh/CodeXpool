@@ -1,0 +1,120 @@
+.contentImageBox {
+    width: 100%!important;
+    height: 195px!important;
+    /* border: 2px solid red!important; */
+    
+}
+
+.item img{
+    max-width: 100%!important;
+    height: 195px!important;
+    object-fit: cover!important;
+
+}
+
+.contentDetailBox{
+    margin-left: 2px!important;
+    width: 100%!important;
+}
+
+
+/* #container2{
+    height: 3508px!important;
+} */
+#footerHome{
+    top: 4599px!important;
+    height: 445px!important;
+}
+
+
+
+
+
+/* Article 11    CSS Border radius animation  */
+
+#contentConatiner{
+    width: 100%!important;
+}
+
+#Cont11two img {
+    max-width: 100%!important;
+    margin-left: 0%!important;
+}
+
+#Cont11four iframe{
+    max-width: 100%!important;
+    margin-left: 0%!important;
+}
+
+
+
+/* Article 10  Animate skill bar */
+
+#contentConatiner10{
+    width: 100%!important;
+}
+
+#Cont10two img {
+    max-width: 100%!important;
+    margin-left: 0%!important;
+}
+
+#Cont10four iframe{
+    max-width: 100%!important;
+    margin-left: 0%!important;
+}
+
+
+
+/* Article 9    portfolio website-2  */
+
+#contentConatiner9{
+    width: 100%!important;
+}
+
+#Cont9two img {
+    max-width: 100%!important;
+    margin-left: 0%!important;
+}
+
+#Cont9four iframe{
+    max-width: 100%!important;
+    margin-left: 0%!important;
+}
+
+
+
+/* Article 8    portfolio website-2  */
+
+#contentConatiner8{
+    width: 100%!important;
+}
+
+#Cont8two img {
+    max-width: 100%!important;
+    margin-left: 0%!important;
+}
+
+#Cont8four iframe{
+    max-width: 100%!important;
+    margin-left: 0%!important;
+}
+
+
+
+
+/* Article 7    portfolio website-2  */
+
+#contentConatiner7{
+    width: 100%!important;
+}
+
+#Cont7two img {
+    max-width: 100%!important;
+    margin-left: 0%!important;
+}
+
+#Cont7four iframe{
+    max-width: 100%!important;
+    margin-left: 0%!important;
+}
