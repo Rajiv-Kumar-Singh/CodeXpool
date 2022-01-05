@@ -31,6 +31,11 @@ app.get('/contact', (req, res)=>{
     const params ={ }
     res.status(200).render('contact.pug',params);
 })
+app.get('/TypeWriterEff1', (req, res)=>{
+    const params ={ }
+    res.status(200).render('./cont/TypeWriterEff1.pug',params);
+})
+
 app.get('/borderRadiiAni', (req, res)=>{
     const params ={ }
     res.status(200).render('./cont/borderRadiiAni.pug',params);
