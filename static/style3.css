@@ -1,6 +1,10 @@
+#up-arrow-btn{
+    left: 87%!important;
+}  
 .navbar{
     display: none!important;
 } 
+
 .contentImageBox {
     width: 100%!important;
     height: 195px!important;

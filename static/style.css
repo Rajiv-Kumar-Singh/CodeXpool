@@ -15,6 +15,49 @@ body::-webkit-scrollbar {
 html {
     scroll-behavior: smooth;
   }
+
+#up-arrow-btn{
+    position: fixed;
+    top: 92vh;
+    left: 92%;
+    z-index: 15;
+}  
+#up-arrow-btn a i{
+    font-size: 41px;
+    color: #86BC25;
+    z-index: 15;
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 72px;
+    background-color: grey;
+    color: #fff;
+    text-align: center;
+    font-size: 11px;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    left: -35%;
+    top: -27px;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: grey transparent transparent transparent;
+}
+
+
 #container1{
     position: absolute;
     top: 0px;
@@ -317,7 +360,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
     height: 234px;
     width: 100%;
     /* border: 2px solid slateblue; */
-    z-index: 11;
+    /* z-index: 11; */
 
     display: flex;
     /* flex-wrap: wrap; */
