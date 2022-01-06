@@ -1,6 +1,3 @@
-.navbar{
-    display: none!important;
-}
 .contentImageBox {
     padding: 5px;
     width: 480px!important;
@@ -22,9 +19,9 @@
     width: 480px!important;
 }
 
-#footerHome{
+/* #footerHome{
     top: 4699px!important;
-}
+} */
 
 
 /* Article 11    CSS Border radius animation  */

@@ -184,7 +184,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
     position: absolute;
     top: 553.1px;
     left: 0px;
-    height: 2406px;
+    height: 1230px;
     width: 100%;
     /* border: 2px solid red; */
     z-index: 2;
@@ -213,14 +213,38 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
     top: 100px;
     /* border: 2px solid blue; */
     /* background-color: chocolate; */
-
+    /* box-shadow:inset 0px 0px 0px 1px grey; */
+    box-shadow: 0 0 0 8px #efe9e9;
+    border-radius: 4px;
 
     display: flex;
     flex-direction: column;
     z-index: 2;
+    height: 675px;
+    overflow: scroll;
+
 
 
 }
+
+.example {
+    background-color: #eee;
+    width: 200px;
+    height: 100px;
+    border: 1px dotted black;
+    overflow-y: scroll; /* Add the ability to scroll */
+  }
+  
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  #mainBoxContainer::-webkit-scrollbar {
+      display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  #mainBoxContainer {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
 
 .box{
     /* width: 587px; */
@@ -230,7 +254,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
     display: flex;
     flex-wrap: wrap;
     background-color:#F5F5F5;
-    
+    border-radius: 4px;
     /* flex-basis: 642px; */
     /* align-items: center; */
 }
@@ -256,7 +280,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
     height: 195px;
     object-fit: cover;
     padding: 5px;
-
+    border-radius: 8px;
 }
 
 .contentDetailBox{
@@ -287,7 +311,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 
 #footerHome{
     position: absolute;
-    top: 3225px;
+    top: 1550px;
     /* bottom: 0px; */
     overflow: hidden;
     height: 234px;
