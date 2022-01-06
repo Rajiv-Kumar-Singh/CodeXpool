@@ -298,7 +298,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
     /* border: 2px solid blue; */
     /* background-color: chocolate; */
     /* box-shadow:inset 0px 0px 0px 1px grey; */
-    box-shadow: 0 0 0 8px #242424;
+    box-shadow: 0 0 0 8px #363636;
     border-radius: 4px;
 
     display: flex;
@@ -339,7 +339,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
     display: flex;
     flex-wrap: wrap;
     /* background-color:#F5F5F5; */
-    background-color:#292929;
+    background-color:#363636;
     border-radius: 4px;
     /* flex-basis: 642px; */
     /* align-items: center; */
@@ -347,7 +347,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 .box:hover{
-    background-color: #3d3d3d;
+    background-color: #464545;
 }
 /* 
 .item{
