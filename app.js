@@ -26,6 +26,10 @@ app.get('/', (req, res) => {
     const params = {}
     res.status(200).render('home.pug', params);
 })
+app.get('/about', (req, res)=>{
+    const params ={ }
+    res.status(200).render('about.pug',params);
+})
 
 app.get('/contact', (req, res)=>{
     const params ={ }

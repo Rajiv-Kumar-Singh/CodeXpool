@@ -1,0 +1,17 @@
+extends base.pug
+
+block scripts
+    script(src='../static/my.js')
+    script(async custom-element="amp-fx-collection" src="https://cdn.ampproject.org/v0/amp-fx-collection-0.1.js" crossorigin='anonymous') 
+  
+block style
+    style
+        include ../static/style.css
+        include ../static/styleAbout.css
+
+block content
+    div.aboutContainer
+        h1 CodeXpool Blogs
+        br
+        Adding more details soon!
+        
