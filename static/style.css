@@ -68,6 +68,28 @@ html {
     background-color: #000000;
     z-index: -1;
 }
+.ytIcon a i {
+    position: absolute;
+    top: 502px;
+    left: 95%;
+    font-size: 53px;
+    /* color: white; */
+    animation: ytanime 5s linear infinite;
+}
+@keyframes ytanime {
+    0%{
+     color: #FF0000;
+    }
+    25%{
+     color: yellow;
+    }
+    75%{
+     color: #86BC25;
+    }
+    100%{
+     color:#FF0000 ;
+    }
+}
 
 #BgVideo video{
     position: absolute;
