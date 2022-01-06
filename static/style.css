@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Moo+Lah+Lah&display=swap');
 *{
     margin: 0px;
     padding: 0px;
@@ -71,8 +72,9 @@ html {
 .ytIcon a i {
     position: absolute;
     top: 502px;
-    left: 95%;
-    font-size: 53px;
+    /* left: 95%; */
+    right: 16px;
+    font-size: 51px;
     /* color: white; */
     animation: ytanime 5s linear infinite;
 }
@@ -196,7 +198,17 @@ backdrop-filter: blur( 4px );
 border: 1px solid rgba( 255, 255, 255, 0.18 ); 
 }
 
-
+.cxp {
+    position: absolute;
+    top: 3px;
+    left: 5px;
+    letter-spacing: 4px;
+    font-size: 52px;
+    font-family: 'Moo Lah Lah', cursive;
+    color: white;
+    z-index: 15;
+    color: #86BC25;
+}
 
 .navbar{
     position: absolute;
