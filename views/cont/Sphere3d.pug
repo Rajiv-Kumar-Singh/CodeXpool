@@ -1,0 +1,107 @@
+extends ../base.pug
+
+block scripts
+    script(src='../../static/my.js')
+block style
+    style
+        include ../../static/style.css
+        include ../../static/contentCSSfiles/Sphere3d.css
+
+block content
+    #Maincontainer13
+        #contentConatiner13
+            #Cont13one.cont 
+                h2#title13 
+                    | Type Writer Effect Using HTML, CSS and JavaScript.
+            #Cont13two.cont 
+                img(src="../../static/files/3dSphere.png", alt="image")
+            #Cont13three.cont 
+                | Hello Developers, In this blog you will learn to create this awesome 3D rotating text sphere using HTML, CSS, JS and TagCloud.js.
+                br
+                | Below i have provided the source code of this or you can also watch the video tutorial.
+            br
+            br
+            br    
+            #Cont13four.cont 
+                h1#watchHead13 Watch Tutorial
+                iframe(width="100%" height="100%" src="https://www.youtube.com/embed/Y4Jl1Ql9qFI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="")
+            br
+            br
+            br    
+            #Cont13five.cont 
+                #sourceCodePara13
+                    | To achieve this amazing 3D rotating sphere you need to create two files 1-HTML file(index.html) and 2-CSS(style.css) file, Now copy and paste the following code in these files also don't forget to paste the JavaScript code inside HTML file at the bottom and inside of body tag and script tag.
+                br
+                br    
+                h1#codeHead13html HTML Code
+                pre 
+                    code#codeBlockHtml13(class="language-html") 
+                        |&lt;!DOCTYPE html>
+                        |&lt;html lang="en">
+                        |&lt;head>
+                        |&lt;meta charset="UTF-8">
+                        |&lt;meta http-equiv="X-UA-Compatible" content="IE=edge">
+                        |&lt;meta name="viewport" content="width=device-width, initial-scale=1.0">
+                        |&lt;title>3D Animated Text Sphere&lt;/title>
+                        |&lt;link rel="stylesheet" href="style.css">
+                        |&lt;/head>
+                        |&lt;body>
+                        |&lt;span class="Sphere">&lt;/span>
+                        |&lt;/body>
+                        |&lt;/html>
+            br
+            br
+            br                       
+            #Cont13six.cont
+                h1#codeHead13css CSS Code 
+                pre
+                    code(class="language-css")
+                        | /*     Importing Google Font Family Link   */
+                        | @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+                        | body {
+                        |   background-color: #000;
+                        | }
+                        |  /* Applying CSS to sphere */
+                        | .tagcloud {
+                        |   display: inline-block;
+                        |   top: 100px;
+                        |   left: 32%;
+                        |   font-weight: bold;
+                        |   letter-spacing: 1px;
+                        |   font-family: 'Bebas Neue', cursive;
+                        |   font-size: 20px;
+                        | }
+                        | /* Change color of each text in sphere on hover   */
+                        | .tagcloud--item:hover {
+                        |   color: #FFC300 ;
+                        | }
+            #Cont13seven.cont
+                h1#codeHead13js JavaScript Code 
+                pre
+                    code(class="language-javascript")
+                        |&lt;!-- Including the TagCloud.js script CDN in the document    -->
+                        |&lt;script src="https://cdn.jsdelivr.net/npm/TagCloud@2.2.0/dist/TagCloud.min.js">&lt;/script>
+                        |    const Texts = [
+                        |        'HTML', 'CSS', 'JAVASCRIPT',
+                        |        'SWIFT', 'MONGOOSE', 'REACT',
+                        |        'PYTHON', 'SASS',
+                        |        'DJANGO', 'NODEJS', 'MONGODB',
+                        |        'EXPRESS', 'MYSQL', 'JQUERY', 'JAVA'
+                        |    ];
+                        |    var tagCloud = TagCloud('.Sphere', Texts, {
+                        |        // Sphere radius in px
+                        |        radius: 230,
+                        |        // animation speed
+                        |        // slow, normal, fast
+                        |        maxSpeed: 'normal',
+                        |        initSpeed: 'fast',
+                        |        // Rolling direction [0 (top) , 90 (left), 135 (right-bottom)] 
+                        |        direction: 135,
+                        |        // interaction with mouse or not [Default true (decelerate to rolling init speed, and keep rolling with mouse).]
+                        |        keep: true
+                        |    });
+                        |    // Giving color to each text in sphere
+                        |    var color = '#FF5733 ';
+                        |    document.querySelector('.Sphere').style.color = color;
+                #finalcodepara13
+                    | That's all now you have succesfully achieve this amazing 3D rotating text sphere.

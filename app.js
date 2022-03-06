@@ -62,6 +62,11 @@ app.get('/portfolio1', (req, res)=>{
     res.status(200).render('./cont/Portfolio1.pug',params);
 })
 
+app.get('/Sphere3D', (req, res)=>{
+    const params ={ }
+    res.status(200).render('./cont/Sphere3d.pug',params);
+})
+
 
 
 

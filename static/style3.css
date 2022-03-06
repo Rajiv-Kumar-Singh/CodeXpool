@@ -34,9 +34,41 @@
 
 
 
+/* Article 13    CSS Border radius animation  */
+
+#contentConatiner13{
+    width: 100%!important;
+}
+
+#Cont13two img {
+    max-width: 100%!important;
+    margin-left: 0%!important;
+}
+
+#Cont13four iframe{
+    max-width: 100%!important;
+    margin-left: 0%!important;
+}
+
+/* Article 12    CSS Border radius animation  */
+
+#contentConatiner12{
+    width: 100%!important;
+}
+
+#Cont12two img {
+    max-width: 100%!important;
+    margin-left: 0%!important;
+}
+
+#Cont12four iframe{
+    max-width: 100%!important;
+    margin-left: 0%!important;
+}
+
 /* Article 11    CSS Border radius animation  */
 
-#contentConatiner{
+#contentConatiner11{
     width: 100%!important;
 }
 

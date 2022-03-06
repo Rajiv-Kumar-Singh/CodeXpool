@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#Maincontainer13 {
+    position: relative;
+    top: 70px;
+    left: 0px;
+    width: 100%;
+    /* min-height: 6522px; */
+    /* border: 5px solid red; */
+    display: inline-block;
+    background: linear-gradient(149deg, #030303, #262727);
+    padding: 10px;
+   
+}
+
+#contentConatiner13{
+    position: relative;
+    top: 0px;
+    width: 65%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* margin: 10px; */
+    /* z-index: 2; */
+    border: 8px solid #363636;
+    border-radius: 16px;
+    background-color: white;
+}
+
+.cont{
+    /* border: 2px solid olive; */
+    margin: 4px;
+}
+#title13 {
+    font-size: 37px;
+    font-family: 'Righteous', cursive;
+}
+
+#Cont13{
+    color: olive;
+}
+
+#Cont13two img {
+    margin-left: 12%;
+    max-width: 75%;
+    height: 339px;
+    object-fit: cover;
+    padding: 5px;
+}
+
+#Cont13three{
+    font-family: 'Nunito', sans-serif;
+    padding: 6px;
+    font-size: 20px;
+}
+#codeHead13html{
+    font-family: 'Righteous', cursive;
+    
+}
+#codeHead13css{
+    font-family: 'Righteous', cursive;
+}
+#codeHead13js{
+    font-family: 'Righteous', cursive;
+}
+
+
+
+#Cont13four iframe{
+    margin-left: 12%;
+    max-width: 75%;
+    height: 339px;
+    object-fit: cover;
+    padding: 5px;
+   
+}
+
+#watchHead13{
+    font-family: 'Righteous', cursive;
+}
+
+
+#codeBlockHtml13{
+    width: 353px;
+    /* height: 243px; */
+}
+#Cont13five{
+    /* height: 580px; */
+    object-fit: cover;
+    padding: 5px;
+    font-size: 14px;
+   
+}
+
+#Cont13six{
+    /* height: 580px; */
+    object-fit: cover;
+    padding: 5px;
+    font-size: 14px;
+}
+#Cont13three span{
+    font-weight:bold;
+    color: green;
+    
+}
+
+#sourceCodePara13{
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+}
+#finalcodepara13{
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* #footerHome{
+    top: 6478px;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 881px){
+    #footerHome {
+        top: 6558px!important;
+}
+} */
+
+/* @media="only screen and (max-device-width: 881px)"
+
+} */
